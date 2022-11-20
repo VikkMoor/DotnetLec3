@@ -7,14 +7,22 @@
 //               012
 // s[3] // r
 
-string Replace(string text, char odValue, char newValue)
+string Replace(string text, char oldValue, char newValue)
 {
-    string result = string.Empty;
+    string result = String.Empty;
 
     int length = text.Length;
-    for (int i = 0; i<length; i++)
+    for (int i = 0; i < length; i++)
     {
-        if (text[i] == oldValue) result = result +$"{newValue}";
-        else result = result + $
+        if (text[i] == oldValue) result = result + $"{newValue}";
+        else result = result + $"{text[i]}";
     }
+    return result;
 }
+
+string newText = Replace(text, ' ', '_');
+Console.WriteLine(newText);
+Console.WriteLine();
+newText = Replace(newText, 'к', 'К');
+Console.WriteLine(newText);
+
