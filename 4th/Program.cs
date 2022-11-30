@@ -1,7 +1,4 @@
 ﻿// Output - sorted array from max to min;
-
-int[] arr = { 1, 5, 4, 3, 2, 6, 7, 1, 1 };
-
 void PrintArray(int[] array)
 {
     int count = array.Length;
@@ -12,7 +9,6 @@ void PrintArray(int[] array)
     }
     Console.WriteLine();
 }
-
 
 void SelectionSort(int[] array)
 {
@@ -30,7 +26,7 @@ void SelectionSort(int[] array)
     }
 }
 
+int[] arr = { 1, 5, 4, 3, 2, 6, 7, 1, 1 };
 PrintArray(arr);
 SelectionSort(arr);
-
 PrintArray(arr);
