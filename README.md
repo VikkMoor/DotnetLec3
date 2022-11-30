@@ -1,6 +1,6 @@
 # DotnetLec3
-One: string Meth example + multiplication table;
+One: example with string Method + multiplication table.
 
-Two: work with text, string Replace;
+Two: work with text, using "string Replace".
 
-3rd & 4th: sorting array a little.
+3rd & 4th: sorting array a lil.
